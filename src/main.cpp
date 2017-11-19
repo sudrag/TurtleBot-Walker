@@ -9,7 +9,7 @@
 #include "Walker.h"
 
 int main(int argc, char **argv) {
-  ros::init(argc, argv, "Walker");
+  ros::init(argc, argv, "walker");
   ros::NodeHandle n;
   Walker roomba;
   geometry_msgs::Twist input;
