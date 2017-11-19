@@ -1,0 +1,6 @@
+Checking src/Walker.cpp...
+1/2 files checked 46% done
+Checking src/main.cpp...
+2/2 files checked 100% done
+(information) Cppcheck cannot find all the include files (use --check-config for details)
+

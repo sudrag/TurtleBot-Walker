@@ -16,9 +16,9 @@
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
  * @copyright Copyright 2017 Sudarshan Raghunathan
- * @file Walker.h
+ * @file Walker.cpp
  * @author Sudarshan Raghunathan
- * @brief Node to follow the walking algorithm of turning when seeing obstacle
+ * @brief Cpp file which describes all the member functions of the class Walker
  *
  */
 #include <geometry_msgs/Twist.h>
