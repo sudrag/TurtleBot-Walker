@@ -37,12 +37,11 @@
  * @return none
  */
 void Walker::closest(const sensor_msgs::LaserScan::ConstPtr& scan) {
-  Walker::sensor_data = 200.0;
+  Walker::sensor_data = 100.0;
   int size = scan->ranges.size();
   for (int i = 0; i < size; i++) {
     if (scan->ranges[i] < Walker::sensor_data) {
       Walker::sensor_data = scan->ranges[i];
-      // ROS_INFO_STREAM("Min dist " << smallest);
     }
   }
 }
